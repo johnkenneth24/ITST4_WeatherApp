@@ -86,15 +86,26 @@ body{
 .search .search-form button{
   width: 38px;
   height: 38px;
-  background-color: #ffff;
-  border: none;
+  background-color: transparent;
+  border: 3px solid #fff;
   border-radius: 50px;
   margin-left: 5px;
-
+  transition: 0.5s;
 }
 
-.search .search-form i{
+.search .search-form button:hover{
+  background-color: #ffff;
   color: #000;
+}
+
+.search .search-form i:hover{
+  color: #000;
+}
+
+
+.search .search-form i{
+  color: #ffff;
+  transition: 0.5s;
 }
 
 .weather-today{
