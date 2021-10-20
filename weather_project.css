@@ -7,9 +7,11 @@ body{
 
 
 .nav-weather{
-  margin-top: 20px;
-  border: 1px solid #fff;
+  height: 10vh;
+  background-color: rgba(37, 34, 36, 0.48);
+  box-shadow: 1px 0px 5px black;
   position: relative;
+  border-bottom: 1px solid;
 }
 
 .nav-title-weather{
@@ -18,6 +20,7 @@ body{
 .nav-weather .nav-title-weather a{
   color: #ffff;
   text-decoration: none;
+  z-index: 1;
 
 }
 
@@ -37,7 +40,7 @@ body{
 
 .nav-weather .nav-title-menu a p{
   color: #ffff;
-  margin-right: 30px;
+  margin-right: 15px;
   font-size: 1.3rem;
   box-sizing: border-box;
   border: 2px solid #ffff;
@@ -53,4 +56,80 @@ body{
 .nav-weather .nav-title-menu a p:hover{
   background-color: #ffff;
   color: #000;
+}
+
+.search{
+  margin-top: 11px; 
+}
+
+.search .search-form{
+  margin-right: 30px;
+
+}
+
+.search .search-form input{
+  width: 300px; 
+  height: 38px;
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  outline: none;
+  text-indent: 15px;
+  color:  #ffff;
+
+}
+
+::-webkit-input-placeholder {
+  color: #ffff;
+}
+
+.search .search-form button{
+  width: 38px;
+  height: 38px;
+  background-color: #ffff;
+  border: none;
+  border-radius: 50px;
+  margin-left: 5px;
+
+}
+
+.search .search-form i{
+  color: #000;
+}
+
+.weather-today{
+  margin-top: 20px;  
+  height: 75vh;
+  width: 95vh;
+  background-color: rgba(37, 34, 36, 0.48);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.form-date p{
+  text-align: center;
+  color: #fff;
+}
+
+.form-date .place{
+  font-size: 1.5rem;
+
+}
+
+.form-date .day{
+  font-size: 5rem;
+}
+
+.form-date .date{
+  font-size: 1.5rem;
+}
+
+.form-date .degree{
+  font-size: 8rem;
+}
+
+.form-date .description{
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 500;
+
 }
