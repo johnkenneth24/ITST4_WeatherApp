@@ -1,0 +1,56 @@
+body{
+  background-image: url("images/background2.jpg");
+  background-size: cover;
+
+}
+
+
+
+.nav-weather{
+  margin-top: 20px;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.nav-title-weather{
+  padding-left: 30px;
+}
+.nav-weather .nav-title-weather a{
+  color: #ffff;
+  text-decoration: none;
+
+}
+
+.nav-weather .nav-title-weather i{
+  color: #ffff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.nav-title-menu{
+  margin-right: 20px;
+}
+
+.nav-weather .nav-title-menu a{
+  text-decoration: none;
+}
+
+.nav-weather .nav-title-menu a p{
+  color: #ffff;
+  margin-right: 30px;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  border: 2px solid #ffff;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  width: 132px;
+  height: 32px;
+  text-align: center;
+  line-height: normal;
+  transition: 0.5s;
+}
+
+.nav-weather .nav-title-menu a p:hover{
+  background-color: #ffff;
+  color: #000;
+}
