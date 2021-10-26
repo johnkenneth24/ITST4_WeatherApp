@@ -57,7 +57,7 @@ body{
 }
 
 .search{
-  margin-top: 11px; 
+  margin-top: 11px;
 }
 
 .search .search-form{
@@ -66,7 +66,7 @@ body{
 }
 
 .search .search-form input{
-  width: 300px; 
+  width: 300px;
   height: 38px;
   background-color: transparent;
   border: 3px solid #fff;
@@ -107,7 +107,7 @@ body{
 }
 
 .weather-today{
-  margin-top: 20px;  
+  margin-top: 20px;
   height: 75vh;
   width: 95vh;
   background-color: rgba(37, 34, 36, 0.48);
@@ -140,5 +140,33 @@ body{
   font-style: italic;
   font-size: 2rem;
   font-weight: 500;
+}
 
+.header{
+  color: #ffff;
+}
+
+.team{
+  background-color: #fff;
+  height: auto;
+  width: 250px;
+  border-radius: 5%;
+  padding: 2px 5px 2px 5px;
+}
+
+.about-us {
+  margin-right: 100px;
+
+  }
+
+  .team .lead{
+    font-size: 1rem;
+    padding: 2px 5px 2px 5px;
+  }
+
+.team img{
+  margin: 20px 0px 15px 0px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
