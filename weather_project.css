@@ -148,25 +148,57 @@ body{
 
 .team{
   background-color: #fff;
-  height: auto;
-  width: 250px;
-  border-radius: 5%;
+  height: 144;
+  width: 400px;
+  border-radius: 15px;
   padding: 2px 5px 2px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-.about-us {
-  margin-right: 100px;
 
-  }
+.team-leader{
+  background-color: #fff;
+  height: 144;
+  width: 400px;
+  border-radius: 15px;
+  padding: 2px 5px 2px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
 
-  .team .lead{
-    font-size: 1rem;
-    padding: 2px 5px 2px 5px;
-  }
+
+.team-leader img{
+  margin: 10px 0px 10px 0px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+
+}
+
+.row{
+  width: 100%;
+}
+
+
 
 .team img{
-  margin: 20px 0px 15px 0px;
-  width: 150px;
-  height: 150px;
+  margin: 10px 0px 10px 0px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+
+}
+
+.mem-info{
+  line-height: 1;
+  border-left: 1px solid;
+  padding-left: 8px;
+}
+
+.mem-info blockquote{
+  font-size: 1rem;
+
+}
+
+.mem-info figure{
+  line-height: 1;
 }
