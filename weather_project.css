@@ -188,10 +188,15 @@ body{
 
 }
 
-.mem-info{
+.team-leader .mem-info{
   line-height: 1;
   border-left: 1px solid;
   padding-left: 8px;
+}
+
+.mem-info{
+  line-height: 1;
+  text-align: center;
 }
 
 .mem-info blockquote{
